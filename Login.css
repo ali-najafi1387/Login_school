@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Vazir-1;
+    src: local("Vazir,Vazir-Bold,Vazir-Light,Vazir-Medium,Vazir-Thin")
+    url("../font/Vazir.ttf") format("truetype"),
+    url("../font/Vazir-Bold.ttf") format("truetype"),
+    url("../font/Vazir-Thin.ttf") format("truetype"),
+    url("../font/Vazir-Light.ttf") format("truetype"),
+    url("../font/Vazir-Medium.ttf") format("truetype");
+}
+* {
+    font-family: Vazir-1;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(125, 168, 209);
+}
+.form-login-school-mohammadian {
+    max-width: 450px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 12%;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 2px 2px 20px rgb(35, 64, 92);
+} 
+
+
+.text-h1 {
+    font-size: 1.6em;
+    margin: 10px;
+}
+
+.text {
+    color: rgb(86, 122, 153);
+    font-size: 1.5em;
+    display: block;
+}
+.img-logo {
+    margin: 0;
+}
+
+.input {
+    font-size: 1.2em;
+    outline-color: rgb(167, 195, 231);
+    width: 16rem;
+    height: 2.8rem;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 20px;
+    padding-right: 15px;
+}
+
+.btn {
+    font-size: 1.2em;
+    outline :0;
+    width: 16rem;
+    height: 2.8rem;
+    margin-top: 10px;
+    border: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(107, 156, 202);
+    border-radius: 20px;
+}
+
+.B{
+    font-size: 1.2em;
+    outline :0;
+    width: 16rem;
+    height: 2.8rem;
+    margin-top: 10px;
+    border: dashed;
+    color:rgb(107, 156, 202);
+    background-color: rgb(255, 255, 255);;
+    border-radius: 20px; 
+}
+
+.btn:hover {
+    transform: none;
+    transition: 0.2s;
+    opacity: 0.9;
+}
+
